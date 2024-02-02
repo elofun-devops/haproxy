@@ -1,0 +1,8 @@
+HTTP/1.1 429 Too Many Requests
+Cache-Control: no-cache
+Connection: close
+Content-Length: 52
+Content-Type: application/json
+Retry-After: 3600
+
+{"code":"429", "message":"API rate limit exceeded"}
